@@ -1,0 +1,31 @@
+﻿Построение начато 13.12.2018 18:59:54.
+     1>Проект "F:\home\Gr1\Gr1.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Gr1.unsuccessfulbuild".
+       CustomBuild:
+         Для всех выходных данных обновления не требуется.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.8.1\4.8.1\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.1\4.8.1\include\QtCore /IC:\Qt\4.8.1\4.8.1\include\QtGui /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt grafic.cpp
+         grafic.cpp
+     1>f:\home\gr1\grafic.cpp(613): warning C4717: grafic::mousePressEvent: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\home\Gr1\\Gr1.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.1\4.8.1\lib qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Gr1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\home\Gr1\Gr1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\home\Gr1\Gr1.lib" /MACHINE:X86 Debug\moc_gr1.obj
+         Debug\moc_grafic.obj
+         Debug\qrc_gr1.obj
+         Debug\gr1.obj
+         Debug\grafic.obj
+         Debug\main.obj
+         LINK : не найден или не выполнена сборка F:\home\Gr1\\Gr1.exe при последней инкрементной компоновке; выполняется полная компоновка
+     1>qtmaind.lib(qtmain_win.obj) : warning LNK4099: "vc100.pdb" PDB не найден с "qtmaind.lib(qtmain_win.obj)" или на "F:\home\Gr1\vc100.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+         Gr1.vcxproj -> F:\home\Gr1\Gr1.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\home\Gr1\\Gr1.exe;#1" /manifest Debug\Gr1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\Gr1.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Gr1.lastbuildstate".
+     1>Построение проекта "F:\home\Gr1\Gr1.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:09.73
